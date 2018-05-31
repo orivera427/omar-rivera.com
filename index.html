@@ -10,23 +10,44 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Omar Rivera | Junior Front End Web Developer</title>
 </head>
+
 <body>
-  <!--nav-->
-  <nav class="navbar nav-tabs nav-justified flex-column flex-sm-row">
-    <a class="nav-item nav-link" href="#">Home</a>
-    <a class="nav-item nav-link" href="#">About</a>
-    <a class="nav-item nav-link" href="#">Skills</a>
-    <a class="nav-item nav-link" href="#">Contact</a>
-    <a class="nav-item nav-link" href="#">Resume</a>
+  <img class="img-fluid rounded mt-5" style="margin-bottom:20px;" src="images/do_more.jpg" alt="do more.">
+  <nav class="navbar navbar-light nav-tabs navbar-expand-sm fixed-top" style="background-color: white;">
+    <!--nav-->
+    <div class="container">
+      <!--container-->
+      <div class="navbar-brand"><a class="nav-item nav-link" href="#"><img src="images/OR3.jpg" style="width: 50px;" alt="Omar Rivera Logo"></a></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="myTogglerNav">
+        <!--collapse-->
+        <div class="navbar-nav ml-auto">
+          <!--navbar-->
+          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link" href="#">Skills</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
+          <a class="nav-item nav-link" href="#">Resume</a>
+        </div>
+        <!--navbar-->
+      </div>
+      <!--collapse-->
+    </div>
+    <!--container-->
   </nav>
-  <img class="img-fluid rounded" style="margin-bottom:20px;" src="images/do_more.jpg" alt="do more.">
+  <!--nav-->
+  <span class="badge badge-dark badge-pill mb-5">About</span>
   <figure class="text-center">
-    <figcaption class="figure-caption">Hello. I am a front end web desinger from California. I took a learning path on <a href="https://www.lynda.com/" target=_blank>Lynda.com</a> to becoma a front end web development and I'm looking for a place to grow.
+    <figcaption class="figure-caption">Hello, I am a front end web desinger from California. I took a learning path on <a href="https://www.lynda.com/" target=_blank>Lynda.com</a> to becoma a front end web development and I'm looking for a place to grow.
   </figure>
+  <span class="badge badge-dark badge-pill mb-5">Skills</span>
   <div class="h1 text-center ">What I know... </div>
   <!-- container -->
+
   <div class="container d-flex justify-content-center">
     <!--row-->
+
     <div class="row pt-3">
       <section class="col-sm-6 col-md-4 col-lg-3 pt-5">
         <img src="./images/html5.jpg" alt="html5">
@@ -51,7 +72,7 @@
     <!--row-->
   </div>
   <!-- container -->
-
+<span class="badge badge-dark badge-pill">Contact</span>
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
