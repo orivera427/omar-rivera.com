@@ -15,21 +15,17 @@
 <body>
   <img class="img-fluid mt-5" src="images/do_more.jpg" alt="do more.">
   <nav class="navbar navbar-light nav-tabs navbar-expand-sm fixed-top" style="background-color: white;">
-    <!--nav-->
     <div class="container">
-      <!--container-->
       <div class="navbar-brand"><a class="nav-item nav-link" href="#"><img src="images/OR3.jpg" style="width: 50px;" alt="Omar Rivera Logo"></a></div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       <div class="collapse navbar-collapse" id="myTogglerNav">
-        <!--collapse-->
         <div class="navbar-nav ml-auto">
-          <!--navbar-->
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="#">Skills</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
-          <a class="nav-item nav-link" href="#">Resume</a>
+          <a class="nav-item nav-link" href="#About">About</a>
+          <a class="nav-item nav-link" href="#Skills">Skills</a>
+          <a class="nav-item nav-link" href="#Contact">Contact</a>
+          <a class="nav-item nav-link" href="omar rivera jr front web developer.pdf" target="_blank">Resume</a>
         </div>
         <!--navbar-->
       </div>
@@ -38,8 +34,7 @@
     <!--container-->
   </nav>
   <!--nav-->
-  <!-- <div class="container"> -->
-  <header class="jumbotron jumbotron-fluid">
+  <header id="About" class="jumbotron jumbotron-fluid" >
     <div class="container">
       <div class="display-2 mb-4">About</div>
       <p class="lead">Hello, I am a front end web desinger from California. I took a learning path on <a href="https://www.lynda.com/" target=_blank>Lynda.com</a> to becoma a front end web development and I'm looking for a place to grow.</p>
@@ -47,13 +42,9 @@
   </header>
   <!-- </div> -->
 
-  <!-- <span class="badge badge-dark badge-pill mb-5">Skills</span> -->
-  <div class="h1 text-center ">What I know... </div>
-  <!-- container -->
-
-  <div class="container d-flex justify-content-center">
+  <div id="Skills" class="container ">
     <!--row-->
-
+    <div  class="display-2 mt-4">Skills</div>
     <div class="row pt-3">
       <section class="col-sm-6 col-md-4 col-lg-3 pt-5">
         <img src="./images/html5.jpg" alt="html5">
@@ -66,7 +57,6 @@
       </section>
       <section class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
         <div class="row no-gutters pt-5">
-          <!--nested row thumbnails-->
           <div class="col-sm-6 col-md-6"><img class="img-thumbnail" src="./images/bootstrap.jpg" alt="bootstrap"></div>
           <div class="col-sm-6 col-md-6"><img class="img-thumbnail" src="./images/sass.jpg" alt="sass"></div>
           <div class="col-sm-6 col-md-6"><img class="img-thumbnail" src="./images/github.png" alt="github"></div>
@@ -76,9 +66,34 @@
       </section>
     </div>
     <!--row-->
+    <footer id="Contact" role="contentinfo">
+        <form>
+            <h1 class="display-4 mt-5">Let's keep in touch!</h1>
+            <div class="d-inline col mt-5">
+              <div class="col">
+                <input type="text" class="mb-2 form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="mb-2 form-control" placeholder="Last name">
+              </div>
+              <div class="col">
+                  <input type="text" class="form-control" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="controltext" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark mb-2">Submit</button>
+        </form>
+        <br><i>orivera427@hotmail.com
+        <br>760.879.8832
+        <br>&copy;2018 by Omar Rivera All Right reserved</i></footer>
+
   </div>
   <!-- container -->
-  <span class="badge badge-dark badge-pill">Contact</span>
+
+
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
